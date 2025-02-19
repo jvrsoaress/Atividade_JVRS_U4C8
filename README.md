@@ -10,7 +10,6 @@ O objetivo deste projeto é utilizar o conversor analógico-digital (ADC) do mic
 
 - **Uso de interrupções**: Todas as funcionalidades relacionadas aos botões devem ser implementadas utilizando rotinas de interrupção (IRQ); 
 - **Debouncing**: É obrigatório implementar o tratamento do bouncing dos botões via software; 
-- **Controle de LEDs**: O projeto deve incluir o uso de LEDs comuns e LEDs WS2812, demonstrando o domínio de diferentes tipos de controle;
 - **Utilização do Display 128 x 64**: A utilização de fontes maiúsculas e minúsculas demonstrará o domínio do uso de bibliotecas, o entendimento do princípio de funcionamento do display, bem como, a utilização do protocolo I2C.
 - **Envio de informação pela UART**: Visa observar a compreensão sobre a comunicação serial via UART. 
 - **Organização do código**: O código deve estar bem estruturado e comentado para facilitar o entendimento.
@@ -21,8 +20,8 @@ O objetivo deste projeto é utilizar o conversor analógico-digital (ADC) do mic
 - **LEDs:** RGB (Vermelho, Verde, Azul)  
 - **Botão A**: Conectado à GPIO 5.  
 - **Display SSD1306**: Conectado via I2C (GPIO 14 e GPIO15).
-- Botão do Joystick conectado à GPIO 22.
-- Joystick conectado aos GPIOs 26 e 27.    
+- **Botão do Joystick**: conectado à GPIO 22.
+- **Joystick**: conectado aos GPIOs 26 e 27.    
 - **Linguagem de Programação:** C  
 - **Frameworks:** Pico SDK
 
